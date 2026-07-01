@@ -115,7 +115,10 @@ export default function Home() {
               </h1>
               <p className="font-mono text-primary/80 tracking-widest uppercase text-sm sm:text-base flex items-center justify-center gap-2">
                 <span className="text-secondary/50">{'//'}</span>
-                Gamer · zeenx
+                Gamer, designer, and creative online personality
+              </p>
+              <p className="mt-4 max-w-2xl mx-auto text-sm sm:text-base text-muted-foreground leading-relaxed">
+                Live on Twitch, sharing gaming moments, creative design work, and behind-the-scenes content with the community.
               </p>
             </motion.header>
 
@@ -158,7 +161,7 @@ export default function Home() {
                       <div className="absolute inset-0 bg-secondary/20 blur-xl group-hover:bg-secondary/40 transition-colors"></div>
                       <img 
                         src={pixelImg} 
-                        alt="Achievement Badge" 
+                        alt="ZeeInPajamas achievement badge" 
                         className="w-20 h-20 sm:w-24 sm:h-24 object-cover rounded-md border-2 border-secondary relative z-10 -rotate-3 transition-transform group-hover:rotate-0"
                         />
                       <div className="absolute -bottom-3 -right-3 bg-secondary text-background font-mono text-xs font-bold px-2 py-1 z-20 rotate-12 uppercase">
@@ -175,7 +178,7 @@ export default function Home() {
             <motion.div variants={itemVariants} className="space-y-4">
               <h2 className="font-sans text-xl font-bold text-white/50 uppercase tracking-widest mb-6 flex items-center gap-4">
                 <span className="h-px bg-white/10 flex-1"></span>
-                Current Objectives
+                Follow ZeeInPajamas
                 <span className="h-px bg-white/10 flex-1"></span>
               </h2>
               
