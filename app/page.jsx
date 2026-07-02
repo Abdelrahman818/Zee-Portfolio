@@ -115,11 +115,25 @@ export default function Home() {
               </h1>
               <p className="font-mono text-primary/80 tracking-widest uppercase text-sm sm:text-base flex items-center justify-center gap-2">
                 <span className="text-secondary/50">{'//'}</span>
-                Gamer, designer, and creative online personality
+                Gamer, streamer, and online personality
               </p>
               <p className="mt-4 max-w-2xl mx-auto text-sm sm:text-base text-muted-foreground leading-relaxed">
-                Live on Twitch, sharing gaming moments, creative design work, and behind-the-scenes content with the community.
+                Zee is a gamer and streamer sharing high-energy gameplay, cozy vibes, and behind-the-scenes moments with the community.
               </p>
+              <div className="mt-6 mx-auto max-w-xl rounded-xl border border-primary/30 bg-primary/10 px-4 py-3 shadow-[0_0_20px_rgba(34,211,238,0.12)]">
+                <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-primary/80">
+                  Built by
+                </p>
+                <a
+                  href="https://www.technology-craft.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="mt-1 inline-flex items-center gap-2 text-sm font-semibold text-white transition hover:text-primary"
+                >
+                  <span className="h-2 w-2 rounded-full bg-primary"></span>
+                  Technology Craft
+                </a>
+              </div>
             </motion.header>
 
             {/* Stats Panel */}
@@ -139,7 +153,7 @@ export default function Home() {
                     <div className="grid grid-cols-1 sm:grid-cols-2 gap-4 font-mono text-sm">
                       <div className="flex flex-col bg-background/50 p-3 border border-white/5">
                         <span className="text-muted-foreground text-xs uppercase tracking-widest mb-1">Role</span>
-                        <span className="text-white font-bold">Gamer / Designer</span>
+                        <span className="text-white font-bold">Gamer / Streamer</span>
                       </div>
                       <div className="flex flex-col bg-background/50 p-3 border border-white/5">
                         <span className="text-muted-foreground text-xs uppercase tracking-widest mb-1">Status</span>
@@ -156,7 +170,7 @@ export default function Home() {
                     </div>
                   </div>
 
-                  <div className="shrink-0 flex items-center justify-center w-full sm:w-auto mt-4 sm:mt-0">
+                  <div className="shrink-0 flex items-center justify-center w-full sm:w-auto mt-4 sm:mt-0 transition-all duration-300 hover:shadow-[0_0_20px_0px_rgba(253,230,138,0.6)]">
                     <div className="relative group">
                       <div className="absolute inset-0 bg-secondary/20 blur-xl group-hover:bg-secondary/40 transition-colors"></div>
                       <img 
@@ -228,6 +242,9 @@ export default function Home() {
             <motion.footer variants={itemVariants} className="pt-12 pb-8 text-center border-t border-white/5 mt-12">
               <p className="font-mono text-xs text-muted-foreground tracking-widest uppercase">
                 Made with sleep deprivation &copy; ZeeInPajamas {new Date().getFullYear()}
+              </p>
+              <p className="mt-3 font-mono text-xs text-muted-foreground tracking-widest uppercase">
+                Built by <a href="https://www.technology-craft.com/" target="_blank" rel="noopener noreferrer" className="text-primary underline-offset-4 hover:underline">Technology Craft</a>
               </p>
               <div className="mt-4 flex justify-center gap-1">
                 <span className="w-2 h-1 bg-primary/20 block"></span>
