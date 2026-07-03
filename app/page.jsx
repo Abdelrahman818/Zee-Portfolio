@@ -19,7 +19,7 @@ const pixelImg = '/53f7a4db-045d-4e2f-8dc5-5436b3576a16_1782884025624.jpg';
 
 const SOCIAL_LINKS = [
   { name: 'Watch Live', handle: 'Twitch', url: 'https://www.twitch.tv/zeeinpajamas', icon: SiTwitch, color: '#9146FF' },
-  { name: 'Watch Live', handle: 'Kick', url: 'https://kick.com/zeeinpajamas ', icon: SiKick, color: '#9146FF' },
+  { name: 'Watch Live', handle: 'Kick', url: 'https://kick.com/zeeinpajamas ', icon: SiKick, color: '#53fc18' },
   { name: 'Watch Videos', handle: 'YouTube', url: 'https://www.youtube.com/channel/UCvxq_jq3jv3oijwCbw-_mVA', icon: SiYoutube, color: '#FF0000' },
   { name: 'Behind the Scenes', handle: 'Instagram', url: 'https://instagram.com/zeeinpajamas', icon: SiInstagram, color: '#E1306C' },
   { name: '@ZeeInPajamas', handle: 'TikTok', url: 'https://www.tiktok.com/@zeeinpajamas', icon: SiTiktok, color: '#00F2FE' },
