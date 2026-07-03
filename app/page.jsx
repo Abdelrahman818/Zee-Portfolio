@@ -120,20 +120,6 @@ export default function Home() {
               <p className="mt-4 max-w-2xl mx-auto text-sm sm:text-base text-muted-foreground leading-relaxed">
                 Zee is a gamer and streamer sharing high-energy gameplay, cozy vibes, and behind-the-scenes moments with the community.
               </p>
-              <div className="mt-6 mx-auto max-w-xl rounded-xl border border-primary/30 bg-primary/10 px-4 py-3 shadow-[0_0_20px_rgba(34,211,238,0.12)]">
-                <p className="font-mono text-[11px] uppercase tracking-[0.3em] text-primary/80">
-                  Built by
-                </p>
-                <a
-                  href="https://www.technology-craft.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="mt-1 inline-flex items-center gap-2 text-sm font-semibold text-white transition hover:text-primary"
-                >
-                  <span className="h-2 w-2 rounded-full bg-primary"></span>
-                  Technology Craft
-                </a>
-              </div>
             </motion.header>
 
             {/* Stats Panel */}
