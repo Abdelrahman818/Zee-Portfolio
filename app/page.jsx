@@ -123,14 +123,14 @@ export default function Home() {
             </motion.header>
 
             {/* Stats Panel */}
-            <motion.div variants={itemVariants} className="relative">
+            {/* <motion.div variants={itemVariants} className="relative">
               <div className="absolute -left-3 top-0 bottom-0 w-1 bg-primary/30 box-glow-cyan"></div>
               <div className="absolute -left-3 top-1/4 h-1/2 w-1 bg-primary box-glow-cyan"></div>
               
               <div className="bg-card/80 backdrop-blur-md border border-white/5 clip-panel p-6 sm:p-8">
                 <div className="flex items-start sm:items-center justify-between flex-col sm:flex-row gap-6">
                   
-                  {/* <div className="flex-1 w-full space-y-4">
+                  <div className="flex-1 w-full space-y-4">
                     <h2 className="font-sans text-2xl font-bold text-secondary uppercase tracking-widest mb-4 flex items-center gap-2">
                       <span className="w-2 h-2 bg-secondary block"></span>
                       Player Stats
@@ -154,7 +154,7 @@ export default function Home() {
                         <span className="text-white font-bold">FPS / Strategy</span>
                       </div>
                     </div>
-                  </div> */}
+                  </div>
 
                   <div className="shrink-0 flex items-center justify-center w-full sm:w-auto mt-4 sm:mt-0 transition-all duration-300 hover:shadow-[0_0_20px_0px_rgba(253,230,138,0.6)]">
                     <div className="relative group">
@@ -172,7 +172,7 @@ export default function Home() {
 
                 </div>
               </div>
-            </motion.div>
+            </motion.div> */}
 
             {/* Missions / Objectives (Social Links) */}
             <motion.div variants={itemVariants} className="space-y-4">
